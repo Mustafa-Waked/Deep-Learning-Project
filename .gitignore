@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large — not committed)
+train/
+test/
+*.zip
+all_data_info.csv
+all_data_info_1.csv
+
+# Model checkpoints
+*.h5
+*.keras
+*.pt
+*.pth
+checkpoints/
+saved_models/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
