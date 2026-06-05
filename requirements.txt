@@ -1,7 +1,9 @@
-numpy
-pandas
-scikit-learn
-Pillow
-torchvision
-tensorflow
-matplotlib
+# Use Python 3.9–3.12 (TensorFlow has no wheel for 3.13+ on many platforms).
+numpy>=1.23,<2
+pandas>=1.5,<3
+scikit-learn>=1.2,<2
+Pillow>=9.0
+torchvision>=0.15
+tensorflow>=2.12,<2.16
+matplotlib>=3.7
+jupyter>=1.0
